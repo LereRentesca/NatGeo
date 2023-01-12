@@ -1,0 +1,46 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+header{
+    text-align: center;
+}
+
+nav{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-image{
+    width: 200px;
+}
+
+.secondary-image{
+    width: 200px;
+}
+
+.picks-images{
+    width: 100px;
+}
+
+.title{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.text span{
+    height: 5px;
+    border-bottom: 2px solid yellow;
+}
+
+.border{
+    border-bottom: 3px solid yellow;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    width: 10%;
+}
