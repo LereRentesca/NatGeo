@@ -1,20 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
 body{
+    font-family: 'Lato', sans-serif;
     background-color: black;
     color: white;
 }
 
 header{
+    padding-top: 30px;
     text-align: center;
 }
 
-nav{
+img{
+    max-width: 100%;
+}
+
+nav.navigation{
+    padding: 8px;
     background-color: white;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.main-image{
+nav .logo{
+    display: none;
+}
+
+nav .frame{
+    height: 30px;
+}
+
+a.link-login{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin-right: 20px;
+    color: black;
+}
+
+a.link-search{
+    display: none;
+}
+
+a.link-subs{
+    padding: 15px 10px 14px 10px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin-right: 20px;
+    background-color: black;
+    color: white;
+
+    background:linear-gradient(to left, black 50%, #ffcc00 50%) right;
+    background-size: 200%;
+}
+
+a.link-subs:hover{
+    transition: .2s ease-out;
+    color: black;
+    background-position: left;
+}
+
+a.link-menu{
+    display: none;
+}
+
+a.link-arrows{
+    padding-right: 15px;
+    color: black;
+}
+
+/* .main-image{
     width: 200px;
 }
 
@@ -24,7 +88,7 @@ nav{
 
 .picks-images{
     width: 100px;
-}
+} */
 
 .title{
     text-transform: uppercase;
@@ -33,11 +97,25 @@ nav{
 
 .text span{
     height: 5px;
-    border-bottom: 2px solid yellow;
+    border-bottom: 2px solid #ffcc00;
+}
+
+.text span:hover{
+    color: black;
+    background-color: #ffcc00;
+}
+
+.link-see-more{
+    border-bottom: 2px solid #ffcc00;
+}
+
+.link-see-more:hover{
+    color: black;
+    background-color: #ffcc00;
 }
 
 .border{
-    border-bottom: 3px solid yellow;
+    border-bottom: 3px solid #ffcc00;
     margin-top: 30px;
     margin-left: auto;
     margin-right: auto;

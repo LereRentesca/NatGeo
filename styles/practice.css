@@ -1,0 +1,36 @@
+table{
+    border-collapse: collapse;
+    border:1px solid black;
+}
+
+td{
+    border: 1px solid black;
+    width: 100px;
+    text-align: center;
+}
+
+.red-flag{
+    color: white;
+    background-color: red;
+}
+
+tr:nth-child(even){
+    background-color: #dedede;
+    
+}
+
+.practice{
+    border: 0px;
+}
+
+.practice thead{
+    background-color: #b9c8fd;
+    color: #0c1c7a;
+}
+
+.practice td{
+    border: 0px solid white;
+    background-color:  #e9ecff;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+}
