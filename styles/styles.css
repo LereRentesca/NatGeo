@@ -21,7 +21,7 @@ img{
 }
 
 nav.navigation{
-    padding: 8px;
+    padding: 9px;
     background-color: white;
     display: flex;
     align-items: center;
@@ -33,7 +33,7 @@ nav .logo{
 }
 
 nav .frame{
-    height: 30px;
+    height: 32px;
 }
 
 a.link-login{
@@ -50,7 +50,7 @@ a.link-search{
 }
 
 a.link-subs{
-    padding: 15px 10px 14px 10px;
+    padding: 17px 10px 16px 10px;
     text-transform: uppercase;
     font-size: 14px;
     font-weight: 700;
@@ -91,18 +91,28 @@ a.link-arrows{
 } */
 
 .title{
+    font-size: 38px;
     text-transform: uppercase;
-    letter-spacing: 5px;
+    letter-spacing: 4px;
+    margin-bottom: 22px;
+}
+
+.text{
+    margin-bottom: 0;
 }
 
 .text span{
     height: 5px;
     border-bottom: 2px solid #ffcc00;
+    color: white;
+
 }
 
 .text span:hover{
+    background:linear-gradient(to bottom,#ffcc00 50%,#ffcc00 50%) top;
+    background-size: 200%;
+    transition: 0.1s;
     color: black;
-    background-color: #ffcc00;
 }
 
 .link-see-more{
@@ -115,10 +125,10 @@ a.link-arrows{
 }
 
 .border{
-    border-bottom: 3px solid #ffcc00;
-    margin-top: 30px;
+    border-bottom: 4px solid #ffcc00;
+    margin-top: 25px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 50px;
-    width: 10%;
+    margin-bottom: 57px;
+    width: 4.8%;
 }
