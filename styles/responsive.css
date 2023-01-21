@@ -1,0 +1,90 @@
+@media(min-width:768px){
+    nav .logo{
+        display: block;
+    }
+
+    nav .frame{
+        display: none;
+    }
+
+    a.link-search{
+        display: inline-block;
+        margin-right: 15px;
+    }
+
+    a.link-newsletter{
+        display: inline-block;
+        margin-right: 15px;
+        border-bottom: 2px solid #ffcc00;
+    }
+    
+    a.link-newsletter:hover{
+        background:linear-gradient(to bottom,#ffcc00 50%,#ffcc00 50%) top;
+        background-size: 200%;
+        transition: 0.1s;
+        color: black;
+    }
+
+    a.link-menu{
+        display: inline-block;
+        margin-right: 5px;
+        font-weight: bolder;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+    }
+
+    .container{
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    main{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .news-secondary{
+        display: flex;
+    }
+
+    .news-secondary .space{
+        width: 20px;
+    }
+
+    .secondary-news{
+        flex-basis:50%;
+    }
+
+    .news{
+        flex-basis: 70%;
+    }
+
+    .todays-picks{
+        flex-basis: 30%;
+        margin-top: -23px;
+    }
+
+    .todays-picks h2{
+        font-size: 28px;
+    }
+
+    .secondary-news-text p{
+        font-size: 20px;
+    }
+
+    .secondary-news-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 150px;
+    }
+
+    .space{
+        width: 50px;
+    }
+
+    .see-more{
+        text-align: start;
+        margin-bottom: 30px;
+    }
+}
